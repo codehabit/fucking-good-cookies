@@ -1,0 +1,16 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  host: localhost
+  database: fucking_good_cookies_development
+  pool: 5
+  username: david
+  password:
+  min_messages: WARNING
+
+development:
+  <<: *default
+
+test:
+  <<: *default
+  database: fucking_good_cookies_test
