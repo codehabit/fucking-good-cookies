@@ -8,6 +8,7 @@ gem 'jquery-rails'
 gem 'bcrypt', '~> 3.1.7'
 gem 'pg'
 gem 'haml'
+gem 'devise'
 
 group :production do
   gem 'unicorn'
@@ -15,11 +16,13 @@ end
 
 group :development do
   gem 'capistrano-rails'
+  gem 'thin'
 end
 
 group :development, :test do
   gem 'byebug'
-  gem 'web-console', '~> 2.0'
   gem 'spring'
+  gem 'quiet_assets'
+  gem 'web-console', '~> 3.0'
 end
 
