@@ -1,4 +1,4 @@
-class Order < ActivRecord::Base
+class Order < ActiveRecord::Base
   has_many :order_items
   has_many :items, through: :order_items
   has_one :order_payment_method
