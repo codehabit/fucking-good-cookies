@@ -11,12 +11,7 @@
  * file per style scope.
  */
 
-@font-face {
-  font-family: "Satisfy";
-  src: url(Satisfy-Regular.ttf) format("truetype");
-}
-
-body {
-  font-family: "Satify";
-}
+// @import 'jquery-ui';
+@import "common";
+@import "home";
 

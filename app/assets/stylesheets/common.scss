@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "Satisfy Regular";
+  src: font-url("Satisfy-Regular.ttf") format("truetype");
+}
+
+body {
+  // background:
+  //     -moz-radial-gradient(#ff4d4d 35%, transparent 16%),
+  //     -moz-radial-gradient(#ff4d4d 35%, transparent 16%);
+  // background:
+  //     -webkit-radial-gradient(#ff4d4d 35%, transparent 16%),
+  //     -webkit-radial-gradient(#ff4d4d 35%, transparent 16%);
+  // background-position: 0 0, 80px 80px;
+  // -webkit-background-size:160px 160px;
+  // -moz-background-size:160px 160px;
+  // background-size:160px 160px;
+  background-image: asset-url("cookie-stack-transparent-background.jpg");
+  background-position: center top;
+  background-repeat: no-repeat;
+  padding-left: 40px;
+  padding-top: 100px;
+}
+
+.bottomframe {
+   bottom:0px;
+   height:30px;
+   position:fixed;
+   width:100%;
+}

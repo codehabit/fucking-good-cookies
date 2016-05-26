@@ -1,0 +1,28 @@
+.hero {
+  font-family: "Satisfy Regular";
+  font-size: 3em;
+  -webkit-transform: rotate(-10deg) skew(-10deg, 0);
+     -moz-transform: rotate(-10deg) skew(-10deg, 0);
+      -ms-transform: rotate(-10deg) skew(-10deg, 0);
+       -o-transform: rotate(-10deg) skew(-10deg, 0);
+          transform: rotate(-10deg) skew(-10deg, 0);
+  // -webkit-text-stroke: 0.01px white;
+  color: black;
+  text-shadow:
+      0px 0px 0 #fff,
+    -1px -1px 0 #fff,
+     1px -1px 0 #fff,
+     -1px 1px 0 #fff,
+      1px 1px 0 #fff;
+  h1,h3,.button {
+    margin: 0;
+    text-align: center;
+  }
+  button {
+    background-color: #ff4d4d;
+    border: none;
+    border-radius: 4px;
+    font-size: 20px;
+    padding: 10px;
+  }
+}
